@@ -3,7 +3,6 @@
 
 
 > ## 1) Frequency Counter Pattern: :wink: 
-
 > Write a function called same, which accepts two arrays.The function should return true if ever yvalue in the array has it's corresponding value squared in the second array.The frequency of values must be the same.
 
 > naive solution, O(N^2)
@@ -63,6 +62,7 @@ function same(arr1, arr2){
 > Given two strings, write a function to determine if the second string is an anagram of the first.
 > An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
 > Note: You may assume the string contains only lowercase alphabets.
+
 > Time Complexity - O(n)
 
 
@@ -110,6 +110,7 @@ console.log(validAnagram('texttwisttime', 'timetwisttext')) // true
 > Frequency Counter - sameFrequency
 > Write a function called sameFrequency. Given two positive integers, find out if the two numbers have the same frequency of digits.
 > Your solution MUST have the following complexities:
+
 > Time: O(N)
 
 ``` js
@@ -145,6 +146,7 @@ function sameFrequency(num1, num2){
 > Implement a function called, areThereDuplicates which accepts a variable number of arguments,
 > and checks whether there are any duplicates among the arguments passed in. 
 > You can solve this using the frequency counter pattern OR the multiple pointers pattern.
+
 > Restrictions:
 > Time - O(n)
 > Space - O(n)
@@ -173,6 +175,7 @@ areThereDuplicates('a', 'b', 'c', 'a') // true
 > Write a function called sumZero which accepts a sorted array of integers.
 > The function should find the first pair where the sum is 0.
 > Rerutn an array that includes both values that sum to zero or undefined if a pair does not exist.
+
 > O(N**2)
 
 ``` js
@@ -221,11 +224,9 @@ console.log(sumZero([-4,-3,-2,-1,0,1,2,5])) // [ -2, 2 ]
 > but it will always be sorted.
 
 > Time Complexity - O(n)
-
 > Space Complexity - O(n)
 
 > Bonus
-
 > You must do this with constant or O(1) space and O(n) time.
 
 ``` js
@@ -253,15 +254,11 @@ console.log(countUniqueValues([-2,-1,-1,0,1])) // 4
 > You can solve this using the frequency counter pattern OR the multiple pointers pattern.
 
 > Restrictions:
-
 > Time - O(n)
-
 > Space - O(n)
 
 > Bonus:
-
 > Time - O(n log n)
-
 > Space - O(1)
 
 ``` js
@@ -298,12 +295,8 @@ function areThereDuplicates() {
 > There may be more than one pair that matches the average target.
 
 > Bonus Constraints:
-
 > Time: O(N)
-
 > Space: O(1)
-
-> Sample Input:
 
 ``` js
 function averagePair(arr, num){
@@ -333,7 +326,6 @@ console.log(averagePair([],4)) // false
 > Your solution MUST have AT LEAST the following complexities:
 
 > Time Complexity - O(N + M)
-
 > Space Complexity - O(1)
 
 ``` js
@@ -431,10 +423,9 @@ console.log(maxSubarraySum([2,6,9,2,1,8,5,6,3],3)) // 19
 > In the first example below, [100, 200, 300] is a subarray of the original array, but [100, 300] is not.
 
 > maxSubarraySum([100,200,300,400], 2) // 700
+
 > Constraints:
-
 > Time Complexity - O(N)
-
 > Space Complexity - O(1)
 
 ``` js
@@ -468,7 +459,6 @@ console.log(maxSubarraySum([2,3], 3)) // null
 > to the integer passed to the function. If there isn't one, return 0 instead.
 
 > Time Complexity - O(n)
-
 > Space Complexity - O(1)
 
 ``` js
