@@ -29,9 +29,6 @@ console.log(foo(5));
 ```
 
 
-
-
-
 // Write a function called same, which accepts two arrays.
 // The function should return true if ever yvalue in the array has it's corresponding value squared in the second array.
 // The frequency of values must be the same.
@@ -62,6 +59,10 @@ function same(arr1, arr2){
 
 
 // refactored solution, O(N)
+
+Syntax highlighting
+
+``` js
 function same(arr1, arr2){
     if(arr1.length !== arr2.length){
         return false;
@@ -86,7 +87,7 @@ function same(arr1, arr2){
     }
     return true
 }
-
+```
 
 
 // Frequency Counter - validAnagram
@@ -164,6 +165,10 @@ console.log(validAnagram('texttwisttime', 'timetwisttext')) // true
 // sameFrequency(3589578, 5879385) // true
 // sameFrequency(22,222) // false
 
+Syntax highlighting
+
+``` js
+
 function sameFrequency(num1, num2){
   let strNum1 = num1.toString();
   let strNum2 = num2.toString();
@@ -186,6 +191,10 @@ function sameFrequency(num1, num2){
  
   return true;
 }
+
+
+```
+
 
 
 
@@ -211,6 +220,10 @@ function sameFrequency(num1, num2){
 
 // Space - O(1)
 
+
+Syntax highlighting
+
+``` js
 function areThereDuplicates() {
   let collection = {}
   for(let val in arguments){
@@ -221,3 +234,5 @@ function areThereDuplicates() {
   }
   return false;
 }
+
+``` 
