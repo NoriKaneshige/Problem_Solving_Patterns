@@ -4,7 +4,7 @@
 
 > ## Frequency Counter Pattern
 > Write a function called same, which accepts two arrays.The function should return true if ever yvalue in the array has it's corresponding value squared in the second array.The frequency of values must be the same.: :wink: :crush: :cry: :tear: :laughing: :yum:
-> naive solution, O(N**2)
+> naive solution, O(N^2)
 
 
 ``` js
@@ -57,25 +57,12 @@ function same(arr1, arr2){
 ```
 
 
-// Frequency Counter - validAnagram
-// Given two strings, write a function to determine if the second string is an anagram of the first.
-// An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
+> Frequency Counter - validAnagram
+> Given two strings, write a function to determine if the second string is an anagram of the first.
+> An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
+> Note: You may assume the string contains only lowercase alphabets.
+> Time Complexity - O(n)
 
-// Examples:
-
-// validAnagram('', '') // true
-// validAnagram('aaz', 'zza') // false
-// validAnagram('anagram', 'nagaram') // true
-// validAnagram("rat","car") // false) // false
-// validAnagram('awesome', 'awesom') // false
-// validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana') // false
-// validAnagram('qwerty', 'qeywrt') // true
-// validAnagram('texttwisttime', 'timetwisttext') // true
-// Note: You may assume the string contains only lowercase alphabets.
-
-// Time Complexity - O(n)
-
-Syntax highlighting
 
 ``` js
 function validAnagram(first, second) {
@@ -118,21 +105,10 @@ console.log(validAnagram('texttwisttime', 'timetwisttext')) // true
 
 
 
-// Frequency Counter - sameFrequency
-// Write a function called sameFrequency. Given two positive integers, find out if the two numbers have the same frequency of digits.
-
-// Your solution MUST have the following complexities:
-
-// Time: O(N)
-
-// Sample Input:
-
-// sameFrequency(182,281) // true
-// sameFrequency(34,14) // false
-// sameFrequency(3589578, 5879385) // true
-// sameFrequency(22,222) // false
-
-Syntax highlighting
+> Frequency Counter - sameFrequency
+> Write a function called sameFrequency. Given two positive integers, find out if the two numbers have the same frequency of digits.
+> Your solution MUST have the following complexities:
+> Time: O(N)
 
 ``` js
 
@@ -164,31 +140,12 @@ function sameFrequency(num1, num2){
 
 
 
-
-
-// Implement a function called, areThereDuplicates which accepts a variable number of arguments,
-// and checks whether there are any duplicates among the arguments passed in. 
-// You can solve this using the frequency counter pattern OR the multiple pointers pattern.
-
-// Examples:
-
-// areThereDuplicates(1, 2, 3) // false
-// areThereDuplicates(1, 2, 2) // true 
-// areThereDuplicates('a', 'b', 'c', 'a') // true 
-// Restrictions:
-
-// Time - O(n)
-
-// Space - O(n)
-
-// Bonus:
-
-// Time - O(n log n)
-
-// Space - O(1)
-
-
-Syntax highlighting
+> Implement a function called, areThereDuplicates which accepts a variable number of arguments,
+> and checks whether there are any duplicates among the arguments passed in. 
+> You can solve this using the frequency counter pattern OR the multiple pointers pattern.
+> Restrictions:
+> Time - O(n)
+> Space - O(n)
 
 ``` js
 function areThereDuplicates() {
@@ -201,5 +158,9 @@ function areThereDuplicates() {
   }
   return false;
 }
+
+areThereDuplicates(1, 2, 3) // false
+areThereDuplicates(1, 2, 2) // true 
+areThereDuplicates('a', 'b', 'c', 'a') // true 
 
 ``` 
