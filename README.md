@@ -371,10 +371,11 @@ console.log(isSubsequence('abc', 'abracadabra')); // true
 console.log(isSubsequence('abc', 'acb')); // false (order matters)
 ```
 
-// Write a function called maxSubarraySum which accepts an array of integers and a number called n.
-// The function should calculate the maximum sum of n consecutive elements in the array.
+> Sliding Window Pattern: :wink: 
+> Write a function called maxSubarraySum which accepts an array of integers and a number called n.
+> The function should calculate the maximum sum of n consecutive elements in the array.
 
-// naive, really inefficinet
+> naive, really inefficinet
 ``` js
 function maxSubarraySum(arr, num) {
   if ( num > arr.length){
@@ -396,8 +397,8 @@ function maxSubarraySum(arr, num) {
 console.log(maxSubarraySum([2,6,9,2,1,8,5,6,3],3)) // 19
 ```
 
-// refactored
-// time complexity: O(N)
+> refactored
+> time complexity: O(N)
 
 ``` js
 function maxSubarraySum(arr, num){
@@ -419,19 +420,19 @@ console.log(maxSubarraySum([2,6,9,2,1,8,5,6,3],3)) // 19
 ```
 
 
-// Sliding Window - maxSubarraySum
-// Given an array of integers and a number, write a function called maxSubarraySum,
-// which finds the maximum sum of a subarray with the length of the number passed to the function.
+> Sliding Window - maxSubarraySum
+> Given an array of integers and a number, write a function called maxSubarraySum,
+> which finds the maximum sum of a subarray with the length of the number passed to the function.
 
-// Note that a subarray must consist of consecutive elements from the original array.
-// In the first example below, [100, 200, 300] is a subarray of the original array, but [100, 300] is not.
+> Note that a subarray must consist of consecutive elements from the original array.
+> In the first example below, [100, 200, 300] is a subarray of the original array, but [100, 300] is not.
 
-// maxSubarraySum([100,200,300,400], 2) // 700
-// Constraints:
+> maxSubarraySum([100,200,300,400], 2) // 700
+> Constraints:
 
-// Time Complexity - O(N)
+> Time Complexity - O(N)
 
-// Space Complexity - O(1)
+> Space Complexity - O(1)
 
 ``` js
 function maxSubarraySum(arr, num){
@@ -457,15 +458,15 @@ console.log(maxSubarraySum([2,3], 3)) // null
 ```
 
 
-// Sliding Window - minSubArrayLen
-// Write a function called minSubArrayLen which accepts two parameters - an array of positive integers and a positive integer.
+> Sliding Window - minSubArrayLen
+> Write a function called minSubArrayLen which accepts two parameters - an array of positive integers and a positive integer.
 
-// This function should return the minimal length of a contiguous subarray of which the sum is greater than or equal 
-// to the integer passed to the function. If there isn't one, return 0 instead.
+> This function should return the minimal length of a contiguous subarray of which the sum is greater than or equal 
+> to the integer passed to the function. If there isn't one, return 0 instead.
 
-// Time Complexity - O(n)
+> Time Complexity - O(n)
 
-// Space Complexity - O(1)
+> Space Complexity - O(1)
 
 ``` js
 function minSubArrayLen(nums, sum) {
@@ -508,11 +509,11 @@ console.log(minSubArrayLen([1,4,16,22,5,7,8,9,10],95)) // 0
 ```
 
 
-// Sliding Window - findLongestSubstring
-// Write a function called findLongestSubstring, which accepts a string and returns the length of the longest substring 
-// with all distinct characters.
+> Sliding Window - findLongestSubstring
+> Write a function called findLongestSubstring, which accepts a string and returns the length of the longest substring 
+> with all distinct characters.
 
-// Time Complexity - O(n)
+> Time Complexity - O(n)
 
 ``` js
 function findLongestSubstring(str) {
