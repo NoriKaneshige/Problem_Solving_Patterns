@@ -176,7 +176,7 @@ areThereDuplicates('a', 'b', 'c', 'a') // true
 > The function should find the first pair where the sum is 0.
 > Rerutn an array that includes both values that sum to zero or undefined if a pair does not exist.
 
-> O(N**2)
+> O(N^2)
 
 ``` js
 function sumZero(arr){
