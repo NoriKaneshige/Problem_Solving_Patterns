@@ -189,9 +189,9 @@ console.log(sumZero([-4,-3,-2,-1,0,1,2,5])) // [ -2, 2 ]
 ``` js
 
 
-// refactored
-// time complexity: O(N)
-// space complexity: O(1)
+> refactored
+> time complexity: O(N)
+> space complexity: O(1)
 ``` js
 function sumZero(arr){
 	let left = 0;
@@ -213,18 +213,18 @@ console.log(sumZero([-4,-3,-2,-1,0,1,2,5])) // [ -2, 2 ]
 
 
 
-// Multiple Pointers - countUniqueValues
-// Implement a function called countUniqueValues, which accepts a sorted array,
-// and counts the unique values in the array. There can be negative numbers in the array,
-// but it will always be sorted.
+> Multiple Pointers - countUniqueValues
+> Implement a function called countUniqueValues, which accepts a sorted array,
+> and counts the unique values in the array. There can be negative numbers in the array,
+> but it will always be sorted.
 
-// Time Complexity - O(n)
+> Time Complexity - O(n)
 
-// Space Complexity - O(n)
+> Space Complexity - O(n)
 
-// Bonus
+> Bonus
 
-// You must do this with constant or O(1) space and O(n) time.
+> You must do this with constant or O(1) space and O(n) time.
 
 ``` js
 function countUniqueValues(arr){
@@ -246,21 +246,21 @@ console.log(countUniqueValues([-2,-1,-1,0,1])) // 4
 ``` 
 
 
-// Implement a function called, areThereDuplicates which accepts a variable number of arguments,
-// and checks whether there are any duplicates among the arguments passed in. 
-// You can solve this using the frequency counter pattern OR the multiple pointers pattern.
+> Implement a function called, areThereDuplicates which accepts a variable number of arguments,
+> and checks whether there are any duplicates among the arguments passed in. 
+> You can solve this using the frequency counter pattern OR the multiple pointers pattern.
 
-// Restrictions:
+> Restrictions:
 
-// Time - O(n)
+> Time - O(n)
 
-// Space - O(n)
+> Space - O(n)
 
-// Bonus:
+> Bonus:
 
-// Time - O(n log n)
+> Time - O(n log n)
 
-// Space - O(1)
+> Space - O(1)
 
 ``` js
 function areThereDuplicates(...args) {
@@ -291,17 +291,17 @@ function areThereDuplicates() {
 
 
 
-// Write a function called averagePair. Given a sorted array of integers and a target average,
-// determine if there is a pair of values in the array where the average of the pair equals the target average.
-// There may be more than one pair that matches the average target.
+> Write a function called averagePair. Given a sorted array of integers and a target average,
+> determine if there is a pair of values in the array where the average of the pair equals the target average.
+> There may be more than one pair that matches the average target.
 
-// Bonus Constraints:
+> Bonus Constraints:
 
-// Time: O(N)
+> Time: O(N)
 
-// Space: O(1)
+> Space: O(1)
 
-// Sample Input:
+> Sample Input:
 
 ``` js
 function averagePair(arr, num){
@@ -323,16 +323,16 @@ console.log(averagePair([],4)) // false
 ```
 
 
-// Write a function called isSubsequence which takes in two strings and checks 
-// whether the characters in the first string form a subsequence of the characters in the second string.
-// In other words, the function should check whether the characters in the first string appear
-// somewhere in the second string, without their order changing.
+> Write a function called isSubsequence which takes in two strings and checks 
+> whether the characters in the first string form a subsequence of the characters in the second string.
+> In other words, the function should check whether the characters in the first string appear
+> somewhere in the second string, without their order changing.
 
-// Your solution MUST have AT LEAST the following complexities:
+> Your solution MUST have AT LEAST the following complexities:
 
-// Time Complexity - O(N + M)
+> Time Complexity - O(N + M)
 
-// Space Complexity - O(1)
+> Space Complexity - O(1)
 
 ``` js
 function isSubsequence(str1, str2) {
@@ -355,7 +355,7 @@ console.log(isSubsequence('abc', 'acb')); // false (order matters)
 
 
 
-// Recursive but not O(1) Space
+> Recursive but not O(1) Space
 
 ``` js
 function isSubsequence(str1, str2) {
