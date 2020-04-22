@@ -167,7 +167,7 @@ areThereDuplicates('a', 'b', 'c', 'a') // true
 
 
 
-> > ## 2) Multiple Pointers Pattern: :wink: 
+> ## 2) Multiple Pointers Pattern: :wink: 
 > Write a function called sumZero which accepts a sorted array of integers.
 > The function should find the first pair where the sum is 0.
 > Rerutn an array that includes both values that sum to zero or undefined if a pair does not exist.
@@ -370,6 +370,7 @@ console.log(isSubsequence('sing', 'sting')); // true
 console.log(isSubsequence('abc', 'abracadabra')); // true
 console.log(isSubsequence('abc', 'acb')); // false (order matters)
 ```
+
 
 > ## 3) Sliding Window Pattern: :wink: 
 > Write a function called maxSubarraySum which accepts an array of integers and a number called n.
