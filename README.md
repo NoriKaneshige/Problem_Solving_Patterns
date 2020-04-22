@@ -107,6 +107,9 @@ function same(arr1, arr2){
 
 // Time Complexity - O(n)
 
+Syntax highlighting
+
+``` js
 function validAnagram(first, second) {
   if (first.length !== second.length) {
     return false;
@@ -143,7 +146,7 @@ console.log(validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana')) // fal
 console.log(validAnagram('qwerty', 'qeywrt')) // true
 console.log(validAnagram('texttwisttime', 'timetwisttext')) // true
 
-
+``` 
 
 
 
