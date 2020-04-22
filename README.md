@@ -39,6 +39,9 @@ console.log(foo(5));
 
 // naive solution, O(N**2)
 
+Syntax highlighting
+
+``` js
 function same(arr1, arr2){
     if(arr1.length !== arr2.length){
         return false;
@@ -53,6 +56,10 @@ function same(arr1, arr2){
     }
     return true;
 }
+
+
+```
+
 
 // refactored solution, O(N)
 function same(arr1, arr2){
