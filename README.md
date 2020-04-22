@@ -1,37 +1,10 @@
 # Problem_Solving_Patterns
 
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-
-// Write a function called same, which accepts two arrays.
-// The function should return true if ever yvalue in the array has it's corresponding value squared in the second array.
-// The frequency of values must be the same.
+::: warning
+*Write a function called same, which accepts two arrays.
+The function should return true if ever yvalue in the array has it's corresponding value squared in the second array.
+The frequency of values must be the same.*
+:::
 
 
 // naive solution, O(N**2)
